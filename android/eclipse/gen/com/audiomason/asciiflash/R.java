@@ -26,14 +26,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int ScrollView=0x7f070000;
-        public static final int clockPane=0x7f070007;
-        public static final int counterLabel=0x7f070006;
-        public static final int essidLabel=0x7f070001;
-        public static final int essidTextBox=0x7f070002;
-        public static final int goButton=0x7f070005;
-        public static final int passwordLabel=0x7f070003;
-        public static final int passwordTextBox=0x7f070004;
-        public static final int wordPane=0x7f070008;
+        public static final int clockPane=0x7f070008;
+        public static final int counterLabel=0x7f070007;
+        public static final int goButton=0x7f070006;
+        public static final int passwordLabel=0x7f070004;
+        public static final int passwordTextBox=0x7f070005;
+        public static final int ssidLabel=0x7f070001;
+        public static final int ssidSpinner=0x7f070003;
+        public static final int ssidTextBox=0x7f070002;
+        public static final int wordPane=0x7f070009;
     }
     public static final class layout {
         public static final int activity_fullscreen=0x7f030000;

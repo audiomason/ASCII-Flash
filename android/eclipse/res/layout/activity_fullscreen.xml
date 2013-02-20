@@ -11,22 +11,27 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/essidLabel"
+            android:id="@+id/ssidLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wireless network name:"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
-            android:id="@+id/essidTextBox"
+            android:id="@+id/ssidTextBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="WIFI-Network" >
+            android:selectAllOnFocus="true" >
 
             <requestFocus />
         </EditText>
+
+        <Spinner
+            android:id="@+id/ssidSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/passwordLabel"
@@ -41,7 +46,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="Password" />
+            android:selectAllOnFocus="true" />
 
         <Button
             android:id="@+id/goButton"
